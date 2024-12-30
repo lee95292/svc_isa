@@ -1,0 +1,41 @@
+name: isa_info
+description: ISA Information Sharing App
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  fl_chart: ^0.63.0
+  google_fonts: ^5.1.0
+  flutter_animate: ^4.2.0
+  seo: ^0.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+fonts:
+  - family: NotoSansKR
+    fonts:
+      - asset: assets/fonts/NotoSansKR-Black.otf
+        weight: 900
+      - asset: assets/fonts/NotoSansKR-Bold.otf
+        weight: 700
+      - asset: assets/fonts/NotoSansKR-Light.otf
+        weight: 300
+      - asset: assets/fonts/NotoSansKR-Medium.otf
+        weight: 500
+      - asset: assets/fonts/NotoSansKR-Regular.otf
+        weight: 400
+      - asset: assets/fonts/NotoSansKR-Thin.otf
+        weight: 100
+
+flutter:
+  uses-material-design: true
